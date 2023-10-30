@@ -23,7 +23,7 @@ console.log(minutes);
 const secondes = Math.floor((difference % (1000 * 60 )) / 1000)
 console.log(secondes);
 
-chrono.innerHTML = `Il vous reste ${jour}j ${heures}h ${minutes}mn ${secondes}s pour profiter de l'essai gratuit`
+chrono.innerHTML = `Plus que ${jour}j ${heures}h ${minutes}mn ${secondes}s restant pour profiter de l'essai gratuit`
 }
 compteur();
 const activation = setInterval(function () {
