@@ -1,0 +1,108 @@
+body {
+  background-image: linear-gradient(to left, rgb(29, 31, 72), rgb(143, 9, 109));
+  margin: 0;
+  padding-left: 2em;
+}
+body header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  padding-top: 0.8em;
+}
+body header .connecte {
+  display: inline-block;
+  position: relative;
+  right: 7.5em;
+  background-image: linear-gradient(to left, rgb(29, 31, 72), rgb(143, 9, 109));
+  color: wheat;
+  width: 10em;
+  border-radius: 10px;
+  height: 3em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+body header h1 {
+  font-size: 1.3em;
+  color: wheat;
+}
+body header .bi {
+  color: wheat;
+  font-size: 3em;
+}
+body header .concours {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35em;
+}
+body header .concours button {
+  width: 10em;
+  height: 3em;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.2em;
+  width: 100%;
+}
+body main .galerie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  border-radius: 10px;
+}
+body main form {
+  color: wheat;
+  width: 15%;
+  border-radius: 10px;
+  padding: 0.5em;
+}
+body main form h2 {
+  margin: 0;
+}
+body main form label {
+  display: inline-block;
+  width: 7em;
+}
+body main form .input_form {
+  display: inline-block;
+  width: 90%;
+  border-radius: 5px;
+  border-color: rgb(173, 8, 36);
+  height: 2em;
+}
+body main form #btn {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 3em;
+  background-color: rgb(136, 2, 89);
+  color: wheat;
+  border-radius: 10px;
+  border-color: red;
+  cursor: pointer;
+}
+body main form legend {
+  text-align: center;
+  font-size: 1.2em;
+}
+body main form fieldset {
+  border-radius: 10px;
+  border-color: rgb(255, 6, 168);
+}
+body main img {
+  width: 15em;
+  height: 20em;
+  border-radius: 10px;
+  margin: 0.125em;
+}
+body .title {
+  margin-left: 0.5em;
+  color: wheat;
+}/*# sourceMappingURL=style.css.map */

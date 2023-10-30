@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="js/script.js" defer></script>
+    <script  src="js/passWord.js"  defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+   <header>
+            <i class="bi bi-balloon-heart">
+                Meet-up
+            </i>
+
+           <div class="concours">
+                 
+                 <h1 id="deCompte"></h1>
+           </div>
+            <button class="connecte">Se connexion</button>
+   </header>
+    <h2 class="title">Trouvez votre moitié dans la diversité</h2>
+   <main>
+   
+            <div class="galerie">
+               
+                    <img src="img/femme/femme12.jpg" alt="" id="firs_img">
+               
+                    <img src="img/couple/couple.jpg" alt="" class="img_galerie">
+              
+                    <img src="img/homme/homme7.jpg" alt="" class="img_galerie">
+             
+                    <img src="img/femme/femme6.jpg" alt=""class="img_galerie">
+             
+                    <img src="img/homme/homme2.jpg" class="img_galerie">
+                    <img src="img/femme/femme8.jpg" alt=""class="img_galerie">
+               
+                   
+                    <img src="img/femme/femme10.jpg" alt=""class="img_galerie">
+               
+                     <img src="img/homme/homme11.jpg" alt=""class="img_galerie">
+
+                     <img src="img/femme/femme5.jpg" alt=""class="img_galerie">
+                    <img src="img/homme/homme12.jpg" alt=""class="img_galerie">
+               
+                   
+                    <img src="img/femme/femme10.jpg" alt=""class="img_galerie">
+               
+                     <img src="img/homme/homme10.jpg" alt=""class="img_galerie">
+             
+
+        </div>
+       
+            
+            <form action="page.html">
+
+                <!-- <h2>Trouvez votre moitié dans la diversité</h2> -->
+                <fieldset>
+                    <legend>S'inscrire</legend>
+                    <p>
+                        <label for="select">Vous êtes</label>
+                        <select name="select" id="select">
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select><br><br>
+                        <label for="selection">Vous cherchez</label>
+                        <select name="selection" id="selection">
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="age">Votre âge </label>
+                        <input type="text" class="input_form"  class="input_value" id="age" name="age" required>  
+                    </p>
+                    <p>
+                        <label for="nom">Nom</label>
+                        <input type="text" class="input_form"  class="input_value" id="nom" name="nom" required>
+                    </p>
+                 
+                    <p>
+                        <label for="mail">Adresse mail</label>
+                        <input type="text" class="input_form"  class="input_value" id="mail" name="mail" required>
+                    </p>
+                    <p>
+                        <label for="password">Mot de passe</label>
+                        <input type="password" class="input_form"  class="input_value" id="password" name="password" required>
+                    </p>
+
+                    <p>
+                        <label for="">Confirmer mot de passe</label>
+                        <input type="password" class="input_form"  class="input_value" id="confirmation" required>
+                        <span id="error_msg"></span>
+                    </p>
+                    <p>
+                        <label for="description">Adresse et description</label>
+                        <textarea name="" id="" cols="30" rows="5" style="border-radius: 10px; border: 2px solid rgb(128, 0, 21);" id="description" name="description" required></textarea>
+                    </p>
+                   
+                </fieldset>
+                <input type="radio" name="conditions" id="conditions" class="conditions">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat possimus repudiandae porro iure maiores 
+                <p class="validation">
+                    <button type="submit" id="btn" href="page.html">Je m'inscris maintenant</button>
+                </p>
+            </form>
+       
+               
+   </main>
+</body>
+
+</html>

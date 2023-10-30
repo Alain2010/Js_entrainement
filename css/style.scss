@@ -1,0 +1,135 @@
+body{
+    background-image: linear-gradient(to left, rgb(29, 31, 72), rgb(143, 9, 109));
+
+    margin: 0;
+    padding-left: 2em;
+
+    header{
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4em;
+        padding-top: 0.8em;
+
+        .connecte{
+            display: inline-block;
+            position: relative;
+            right: 7.5em;
+            background-image: linear-gradient(to left, rgb(29, 31, 72), rgb(143, 9, 109));
+            color: wheat;
+            width: 10em;
+            border-radius: 10px;
+            height: 3em;
+            font-size: 1.2em;
+            cursor: pointer;
+
+        }
+    
+
+        h1{
+            font-size: 1.3em;
+            color: wheat;
+        }
+
+        .bi{
+            color: wheat;
+            font-size: 3em;
+        }
+
+        .concours{
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35em;
+
+            button{
+                width: 10em;
+                height: 3em;
+            }
+        }
+      
+
+    }
+    
+   main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.2em;
+    width: 100%;
+
+   
+    .galerie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        border-radius: 10px;
+        // padding-left: 2em;
+        // padding-right: 0;
+    }
+    form{
+        color: wheat;
+        width: 15%;
+        border-radius: 10px;
+        padding: 0.5em;
+
+        h2{
+            margin: 0;
+        }
+
+        label{
+            display: inline-block;
+            width: 7em;
+        }
+
+        .input_form {
+            display: inline-block;
+            width: 90%;
+            border-radius: 5px;
+            border-color: rgb(173, 8, 36);
+            height: 2em;
+            
+        }
+
+        #btn{
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            height: 3em;
+            background-color: rgb(136, 2, 89);
+            color: wheat;
+            border-radius: 10px;
+            border-color: red;
+            cursor: pointer;
+        }
+
+        legend{
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        fieldset{
+            border-radius: 10px;
+            border-color: rgb(255, 6, 168);
+        }
+
+    }
+
+    img{
+        width: 15em;
+        height: 20em;
+        border-radius: 10px;
+        margin: 0.125em;
+    }
+   }
+
+   .title{
+    margin-left: 0.5em;
+    color: wheat;
+}
+}
